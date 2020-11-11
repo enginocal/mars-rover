@@ -39,8 +39,8 @@ I was trying to implement command factory pattern.
 
 For turn left and right command, i use table design to next position.
 
-For example, if the current command "L" and the current position are like below, next position would be dictionary value.
-leftCommandNextPosition.Add(Directions.N, Directions.W);
-leftCommandNextPosition.Add(Directions.E, Directions.N);
-leftCommandNextPosition.Add(Directions.W, Directions.S);
-leftCommandNextPosition.Add(Directions.S, Directions.E);
+For example, if the current command <b>"L"</b> and the current position are like below, next position would be dictionary value.
+leftCommandNextPosition.Add(Directions.N, Directions.W);<br>
+leftCommandNextPosition.Add(Directions.E, Directions.N);<br>
+leftCommandNextPosition.Add(Directions.W, Directions.S);<br>
+leftCommandNextPosition.Add(Directions.S, Directions.E);<br>
