@@ -1,6 +1,6 @@
 # mars-rover
 
-<h2><b>Problem Definition
+# <h2><b>Problem Definition</b>
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board cameras can get a complete view of the surrounding terrain to send back to Earth. 
 
@@ -28,11 +28,11 @@ LMLMLMLMM <br>
 3 3 E <br>
 MMRMMRMRRM <br>
 
-<h2> Explanation
+# <h2> Explanation
 
 It is a classical mars rover problem case. It assumed that rover only move on  the way, turn left or turn right.
 
-<h2>Problem Solving Approach
+# <h2>Problem Solving Approach
  
 The project only contains console input progress. We would improve with adding different streaming sources.
 I was trying to implement command factory pattern.
@@ -44,7 +44,3 @@ leftCommandNextPosition.Add(Directions.N, Directions.W);
 leftCommandNextPosition.Add(Directions.E, Directions.N);
 leftCommandNextPosition.Add(Directions.W, Directions.S);
 leftCommandNextPosition.Add(Directions.S, Directions.E);
-
-
-
-  
