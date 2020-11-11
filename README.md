@@ -21,8 +21,8 @@ Each rover will be finished sequentially, which means that the second rover won'
 <b>Output:</b> <br>
 The output for each rover should be its final co-ordinates and heading. 
 
-<b>Input and Output </b>
-Test Input: 
+<b>Input and Output </b> <br>
+Test Input: <br>
 5 5 1 2 N <br>
 LMLMLMLMM <br>
 3 3 E <br>
